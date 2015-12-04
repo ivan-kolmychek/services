@@ -2,3 +2,8 @@ postgres-9-4:
   image: postgres:9.4
   ports:
     - '127.0.2.253:5432:5432'
+elasticsearch-2-1:
+  image: elasticsearch:2.1
+  ports:
+    - '127.0.2.252:9200:9200'
+    - '127.0.2.252:9300:9300'

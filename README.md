@@ -22,7 +22,14 @@ But othewise yes, linking containers is very nice, easy and useful. And `docker-
 
 # PostgresQL
 
-# 9.4
+## 9.4
 
 `docker-compose up postgres-9-4` will bring up the container, which will
 expose it's port on `127.0.2.253:5432`
+
+# ElasticSearch
+
+## 2.1
+
+`docker-compose up elasticsearch-2-1` will bring up the container, which will
+expose it's ports on `127.0.2.252:9200` and `127.0.2.252:9300`
