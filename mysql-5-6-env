@@ -1,0 +1,2 @@
+# MySQL image requires MYSQL_ROOT_PASSWORD to be set to something
+MYSQL_ROOT_PASSWORD=thereisnospoon
