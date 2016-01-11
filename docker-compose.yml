@@ -4,6 +4,7 @@ postgres-9-4:
     - '127.0.2.253:5432:5432'
 postgres-9.3:
   image: postgres:9.3
+  env_file: 'postgres-9.3.env'
   ports:
     - '127.0.2.248:5432:5432'
 elasticsearch-2-1:
