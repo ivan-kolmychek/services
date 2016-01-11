@@ -11,6 +11,8 @@ Collection of configuration for commonly-used services.
 
  * [MySQL](#mysql)
 
+ * [Memcached](#memcached)
+
 # F.A.Q
 
 ## WHY U NO LINK containers betwen one another?
@@ -41,15 +43,21 @@ You can ask someone to add it in the issues or you can add it yourself and submi
 
 ## 9.4
 
-Usage: `docker-compose up postgres-9-4` 
+Usage: `docker-compose up postgres-9.4` 
 
 Exposes: `127.0.2.253:5432`
+
+## 9.3
+
+Usage: `docker-compose up postgres-9.3`
+
+Exposes: `127.0.2.248:5432`
 
 # ElasticSearch
 
 ## 2.1
 
-Usage: `docker-compose up elasticsearch-2-1`
+Usage: `docker-compose up elasticsearch-2.1`
 
 Exposes: `127.0.2.252:9200` and `127.0.2.252:9300`
 
@@ -57,13 +65,13 @@ Exposes: `127.0.2.252:9200` and `127.0.2.252:9300`
 
 ## 3.0
 
-`docker-compose up redis-3-0`
+`docker-compose up redis-3.0`
 
 Exposes `127.0.2.251:6379`
 
 ## 2.8
 
-`docker-compose up redis-2-8`
+`docker-compose up redis-2.8`
 
 Exposes `127.0.2.250:6379`
 
@@ -71,6 +79,14 @@ Exposes `127.0.2.250:6379`
 
 ## 5.6
 
-`docker-compose up mysql-5-6`
+Usage: `docker-compose up mysql-5.6`
 
 Exposes `127.0.2.249:3306`
+
+# Memcached
+
+## 1.4
+
+Usage: `docker-compose up memcached-1.4`
+
+Exposes `127.0.2.247:11211`
