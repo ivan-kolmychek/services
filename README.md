@@ -39,6 +39,18 @@ But othewise yes, linking containers is very nice, easy and useful. And `docker-
 
 You can ask someone to add it in the issues or you can add it yourself and submit a pull-request.
 
+## Why don't you use environment variables in your docker-compose?
+
+Yes, we can use env variables since `docker-compose 1.5`, but I chose not to.
+
+I was really excited about them, but it happens that, for now, they are not usable for us, because: 
+
+ * there are no support for default values - this would be useful for IP addresses, for instance, where you don't want to bind to `0.0.0.0` by default, as this can expose the service you consider "development-only" to people external to your machine;
+
+ * (More reasons may be added in future)
+
+If you know the way around said problems or want to help about ENV vars, [you can jump to the discussion of issue #4](https://github.com/ivan-kolmychek/services/issues/4).
+
 # PostgresQL
 
 ## 9.4
