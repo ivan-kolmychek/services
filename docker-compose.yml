@@ -2,6 +2,10 @@ postgres-9-4:
   image: postgres:9.4
   ports:
     - '127.0.2.253:5432:5432'
+postgres-9.3:
+  image: postgres:9.3
+  ports:
+    - '127.0.2.248:5432:5432'
 elasticsearch-2-1:
   image: elasticsearch:2.1
   ports:
@@ -20,3 +24,7 @@ mysql-5-6:
   env_file: 'mysql-5-6-env'
   ports:
     - '127.0.2.249:3306:3306'
+memcached-1.4:
+  image: memcached:1.4
+  ports:
+    - '127.0.2.247:11211:11211'
