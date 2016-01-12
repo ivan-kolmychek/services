@@ -7,6 +7,11 @@ postgres-9.3:
   env_file: 'postgres-9.3.env'
   ports:
     - '127.0.2.248:5432:5432'
+postgres-9.3-plperl:
+  build: 'postgres-9.3-plperl'
+  env_file: 'postgres-9.3.env'
+  ports:
+    - '127.0.2.247:5432:5432'
 elasticsearch-2.1:
   image: elasticsearch:2.1
   ports:
