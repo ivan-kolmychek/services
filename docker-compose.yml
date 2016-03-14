@@ -1,3 +1,7 @@
+postgres-9.5:
+  image: postgres:9.5
+  ports:
+    - '127.0.2.246:5432:5432'
 postgres-9.4:
   image: postgres:9.4
   ports:

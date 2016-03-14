@@ -53,6 +53,12 @@ If you know the way around said problems or want to help about ENV vars, [you ca
 
 # PostgresQL
 
+## 9.5
+
+Usage: `docker-compose up postgres-9.5`
+
+Exsposes: `127.0.2.246:5432`
+
 ## 9.4
 
 Usage: `docker-compose up postgres-9.4` 
